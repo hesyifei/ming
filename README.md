@@ -14,7 +14,17 @@ _(A work-in-progress…)_
 
 ---
 
-## 设立开发环境
+## 词语资料贡献
+
+欢迎提交拉取请求（pull request）新增或更新词语（即更新“[词语/](https://github.com/hesyifei/ming/tree/master/%E8%AF%8D%E8%AF%AD)”目录内的文件内容）！
+
+---
+
+## 程序改进
+
+亦欢迎提交拉取请求优化程序或增加新功能！
+
+### 设立开发环境
 
 开发环境基于 PHP 7.4。
 
