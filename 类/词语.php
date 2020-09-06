@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 class 词语
 {
 	/** @var 名称[] */

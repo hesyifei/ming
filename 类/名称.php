@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 class 名称
 {
 	private string $名字;

@@ -1,4 +1,7 @@
 <?php
+
+declare(strict_types=1);
+
 require_once(__DIR__ . "/页面结构/初始化.php");
 $标题 = "首页";
 $描述 = "这是首页";
