@@ -10,9 +10,9 @@ class 词语
 	private string $维基百科条目名;
 	private string $百度百科条目名;
 
-	function __construct(string $YAML文件路径)
+	function __construct(string $英文原名)
 	{
-		$YAML内容 = 载入YAML文件($YAML文件路径);
+		$YAML内容 = 载入YAML数据($英文原名);
 
 		$this->维基百科条目名 = $YAML内容["维基百科条目名"];
 		$this->百度百科条目名 = $YAML内容["百度百科条目名"];

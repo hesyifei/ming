@@ -8,7 +8,7 @@ $描述 = "这是首页";
 
 require_once(__DIR__ . "/页面结构/页首.php");
 
-$测试词语 = new 词语(__DIR__ . "数据/virtual reality.yaml");
+$测试词语 = new 词语("virtual reality");
 
 var_dump($测试词语->的英文原名()->的名字());
 
