@@ -9,5 +9,5 @@ function 载入YAML文件(string $文件路径): array
 
 function 载入YAML数据(string $英文原名): array
 {
-	return 载入YAML文件(__DIR__ . "/../数据/" . $英文原名 . ".yaml");
+	return 载入YAML文件(__DIR__ . "/../../数据/" . $英文原名 . ".yaml");
 }
