@@ -4,19 +4,18 @@ class 词语
 	/** @var 名称[] */
 	private array $所有名称;
 
-	private string $维基百科;
-	private string $百度百科;
+	private string $维基百科条目名;
+	private string $百度百科条目名;
 
 	function __construct(string $YAML文件路径)
 	{
 		$YAML内容 = 载入YAML文件($YAML文件路径);
 
-		$this->英文原名 = $YAML内容["名称"];
-		$this->维基百科 = $YAML内容["维基百科"];
-		$this->百度百科 = $YAML内容["百度百科"];
+		$this->维基百科条目名 = $YAML内容["维基百科条目名"];
+		$this->百度百科条目名 = $YAML内容["百度百科条目名"];
 
 		$英文原名类别 = 词语类别::英文原名();
-		$英文原名 = new 名称($YAML内容["名称"], $英文原名类别, null);
+		$英文原名 = new 名称($YAML内容["英文原名"], $英文原名类别, null);
 
 		$所有名称 = [
 			$英文原名类别->getValue() => $英文原名,
@@ -45,13 +44,21 @@ class 词语
 		return $this->所有名称[$类别->getValue()];
 	}
 
-	function 的维基百科(): string
+	function 的维基百科条目名(): string
 	{
-		return $this->维基百科;
+		return $this->维基百科条目名;
+	}
+	function 的维基百科链接(): string
+	{
+		return "https://zh.wikipedia.org/wiki/" . $this->的维基百科条目名();
 	}
 
-	function 的百度百科(): string
+	function 的百度百科条目名(): string
 	{
-		return $this->百度百科;
+		return $this->百度百科条目名;
+	}
+	function 的百度百科链接(): string
+	{
+		return "https://baike.baidu.com/item/" . $this->的百度百科条目名();
 	}
 }
