@@ -24,5 +24,7 @@ $词语 = new 词语($查询字串——英文原名);
 	<a href="<?php echo $词语->的维基百科链接() ?>" target="_blank" rel="nofollow">维基百科</a>
 </p>
 
+<p><a href="/">返回首页</a></p>
+
 <?php
 require_once(——源——页面结构目录—— . "/页尾.php");
