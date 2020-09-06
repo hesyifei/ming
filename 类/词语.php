@@ -44,20 +44,20 @@ class 词语
 		return $this->所有名称[$类别->getValue()];
 	}
 
-	function 的维基百科条目名(): string
+	public function 的维基百科条目名(): string
 	{
 		return $this->维基百科条目名;
 	}
-	function 的维基百科链接(): string
+	public function 的维基百科链接(): string
 	{
 		return "https://zh.wikipedia.org/wiki/" . $this->的维基百科条目名();
 	}
 
-	function 的百度百科条目名(): string
+	public function 的百度百科条目名(): string
 	{
 		return $this->百度百科条目名;
 	}
-	function 的百度百科链接(): string
+	public function 的百度百科链接(): string
 	{
 		return "https://baike.baidu.com/item/" . $this->的百度百科条目名();
 	}
