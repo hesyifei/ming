@@ -20,7 +20,7 @@ foreach ($英文原名配对所有别名关联数组 as $英文原名 => $所有
 ?>
 	<p>
 		<strong><?php echo $英文原名; ?></strong>：<?php echo implode("／", $所有别名名字) ?>
-		（<a href="/<?php echo $英文原名 ?>">查看详情</a>）
+		（<a href="/<?php echo urlencode($英文原名) ?>">查看详情</a>）
 	</p>
 <?php
 }
