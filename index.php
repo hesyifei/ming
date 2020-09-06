@@ -5,7 +5,7 @@ declare(strict_types=1);
 require_once(__DIR__ . "/源/页面结构/初始化.php");
 
 $被解析的网址 = parse_url($_SERVER['REQUEST_URI']);
-$网址路径 = urldecode($被解析的网址["path"]);
+$网址路径 = rawurldecode($被解析的网址["path"]);
 
 $查询字串 = substr($网址路径, 1); // 移除开头的“/”
 
