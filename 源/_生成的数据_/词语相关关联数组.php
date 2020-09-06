@@ -25,3 +25,11 @@ $名字配对英文原名关联数组 = [
 	"虚拟现实" => "virtual reality",
 	"拟实" => "virtual reality",
 ];
+
+$英文原名配对所有别名关联数组 = [
+	"5G" => ["第五代移动通信技术", "五通", ],
+	"Universal Serial Bus" => ["USB", "通用串行总线", "通串流", ],
+	"augmented reality" => ["AR", "增强现实", "扩张现实", "增实", ],
+	"central processing unit" => ["CPU", "中央处理器", "中处器", "央处器", ],
+	"virtual reality" => ["VR", "虚拟现实", "拟实", ],
+];
