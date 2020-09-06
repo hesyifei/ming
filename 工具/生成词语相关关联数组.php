@@ -2,8 +2,7 @@
 
 declare(strict_types=1);
 
-require_once(__DIR__ . "/../源/辅助/常量.php");
-require_once(——源——页面结构目录—— . "/初始化.php");
+require_once(__DIR__ . "/../源/页面结构/初始化.php");
 
 $名字配对英文原名关联数组内容 = "[\n";
 $英文原名配对所有别名关联数组内容 = "[\n";

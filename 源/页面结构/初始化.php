@@ -2,6 +2,8 @@
 
 declare(strict_types=1);
 
+require_once(__DIR__ . "/../辅助/常量.php");
+
 require ——项目根目录—— . '/vendor/autoload.php';
 
 require_once(——源——辅助目录—— . "/函数.php");
