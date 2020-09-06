@@ -20,7 +20,7 @@ class 名称
 		return $this->名字;
 	}
 
-	public function 的类别(): string
+	public function 的类别(): 词语类别
 	{
 		return $this->类别;
 	}
