@@ -10,3 +10,5 @@ require_once(——源——辅助目录—— . "/YAML相关.php");
 require_once(——源——类目录—— . "/枚举/词语类别.php");
 require_once(——源——类目录—— . "/名称.php");
 require_once(——源——类目录—— . "/词语.php");
+
+require_once(——源——生成的数据目录—— . "/词语相关关联数组.php");
