@@ -5,7 +5,7 @@ declare(strict_types=1);
 $标题 = "首页";
 $描述 = "这是首页";
 
-require_once(__DIR__ . "/../页面结构/页首.php");
+require_once(——源——页面结构目录—— . "/页首.php");
 
 $测试词语 = new 词语("virtual reality");
 
